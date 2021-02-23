@@ -8,6 +8,7 @@ fun main() {
         println(value)
 
     var two : Array<String> = arrayOf("하나", "둘", "셋")
+    
     for (i in 0..2 step 1)      // i = 0부터 i = 2까지 1씩 증가
         println(two[i])
     
